@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+  <h1>My Calculator Application</h1>
+<div class="calculator">
+    <input type="text" id="display" class="calculator-display" disabled>
+    <div class="calculator-buttons">
+        <!-- Calculator number and operator buttons -->
+        <button onclick="pressKey('1')">1</button>
+        <button onclick="pressKey('2')">2</button>
+        <button onclick="pressKey('3')">3</button>
+        <button onclick="pressKey('+')" class="operator">+</button>
+        <button onclick="pressKey('4')">4</button>
+        <button onclick="pressKey('5')">5</button>
+        <button onclick="pressKey('6')">6</button>
+        <button onclick="pressKey('-')" class="operator">-</button>
+        <button onclick="pressKey('7')">7</button>
+        <button onclick="pressKey('8')">8</button>
+        <button onclick="pressKey('9')">9</button>
+        <button onclick="pressKey('*')" class="operator">&times;</button>
+        <button onclick="pressKey('C')" class="clear">C</button>
+        <button onclick="pressKey('0')">0</button>
+        <button onclick="calculate()" class="equals">=</button>
+        <button onclick="pressKey('/')" class="operator">&divide;</button>
+    </div>
+</div>
+
+</body>
+</html>
